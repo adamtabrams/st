@@ -1,0 +1,11 @@
+Additions
+    change MODKEY
+
+    change font
+        try mono for system font
+        else FiraCode Nerd Font size 16
+
+    scripts for external pipe
+        open url
+        copy prev cmd
+        copy prev out
