@@ -25,7 +25,7 @@ index 2e1b6ef..9876482 100644
  };
 
 -static int borderpx = 2;
-+static int borderpx = 0;
++static int borderpx = 4;
 
  /*
   * What program is execed by st depends of these precedence rules:
