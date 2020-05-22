@@ -9,6 +9,7 @@ patches="\
     patches/st-externalpipe-eternal-0.8.3.diff
     patches/st-no_bold_colors-0.8.1.diff
     patches/st-solarized-dark-20180411-041912a.diff
+    patches/st-config-20200522.diff
 "
 
-echo "$patches" | xargs -n 1 git apply --whitespace=fix
+echo "$patches" | xargs -n 1 git apply --whitespace=fix -3
